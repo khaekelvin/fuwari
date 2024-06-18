@@ -7,7 +7,7 @@ const fakeResult = [
   {
     url: url('/'),
     meta: {
-      title: 'This Is a Fake Search Result',
+      title: 'This Is a sample Search Result',
     },
     excerpt:
       'Because the search cannot work in the <mark>dev</mark> environment.',
@@ -21,7 +21,6 @@ const fakeResult = [
   },
 ]
 
-let search = (keyword: string, isDesktop: boolean) => {}
 
 onMount(() => {
   search = async (keyword: string, isDesktop: boolean) => {
